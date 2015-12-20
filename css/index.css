@@ -198,12 +198,16 @@
         /*margin: -20px 0;*/
       }
 
+      .carousel {
+         margin-top: 60px;
+      }
+
       .carousel .item {
-        height: 500px;
+        height: 400px;
       }
       .carousel img {
         width: auto;
-        height: 500px;
+        height: 400px;
       }
 
       .featurette {
@@ -232,6 +236,7 @@
       .carousel {
         margin-left: -20px;
         margin-right: -20px;
+         margin-top: 60px;
       }
       .carousel .container {
 
@@ -245,7 +250,7 @@
       .carousel-caption {
         width: 65%;
         padding: 0 70px;
-        margin-top: 100px;
+        margin-top: 60px;
       }
       .carousel-caption h1 {
         font-size: 30px;
@@ -267,6 +272,20 @@
         line-height: 1.5;
       }
 
+    }
+
+    @media (max-width: 767px) {
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 30px;
+      }
+      .carousel-caption h1 {
+        font-size: 24px;
+      }
+      .carousel {
+         margin-top: 60px;
+      }
     }
 
 /*导航*/
