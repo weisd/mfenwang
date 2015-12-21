@@ -371,11 +371,17 @@ body {
 
     @media (max-width: 767px) {
 
-      /*.navbar-inner {
-        margin: -20px;
+      [class*="span"],
+      .uneditable-input[class*="span"],
+      .row-fluid [class*="span"] {
+         float: left; 
+         width: 300px; 
+        margin-left: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
       }
-*/
-      .carousel {
+          .carousel {
         margin-left: -20px;
         margin-right: -20px;
          margin-top: 60px;
@@ -402,9 +408,9 @@ body {
         font-size: 18px;
       }
 
-      .marketing .span4 + .span4 {
+     /* .marketing .span4 + .span4 {
         margin-top: 40px;
-      }
+      }*/
 
       .featurette-heading {
         font-size: 30px;
@@ -426,6 +432,19 @@ body {
          margin-top: 60px;
       }
 
+    }
+
+    @media (max-width: 640px) {
+      [class*="span"],
+      .uneditable-input[class*="span"],
+      .row-fluid [class*="span"] {
+        display: block;
+        float: none;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
     }
 
    
