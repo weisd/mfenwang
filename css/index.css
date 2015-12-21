@@ -4,7 +4,9 @@
 
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
+  /*color: #5a5a5a;*/
+  color: #4a4a4a;
+
 
 }
 
@@ -133,7 +135,6 @@ body {
 -------------------------------------------------- */
  .marketing {
   text-align: center;
-  color: #5a5a5a;
  }
  .marketing .row {
   margin-top: 60px;
@@ -359,7 +360,7 @@ body {
       .featurette-image.pull-right {
         display: block;
         float: none;
-        max-width: 40%;
+        max-width: 65%;
         _width:40%;
         margin: 0 auto 20px;
       }
