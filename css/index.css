@@ -282,7 +282,7 @@ body {
   font-size: 24px;
 }
 
-.nav .phone {
+ .phone {
    font-size: 24px;
    font-weight: bold;
 }
@@ -459,10 +459,12 @@ body {
         padding: 10px 10px;
       }
 
-      .nav .phone {
+       .phone {
          font-size: 20px;
          font-weight: bold;
       }
+
+      .cont-us{margin-top: 30px;padding-top:30px;border-top: 2px solid #F7F7F7;}
 
     }
 
